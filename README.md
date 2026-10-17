@@ -13,7 +13,7 @@ A simple and clean registration form built using HTML and CSS.
 - CSS3
 
 ## Live Demo
-[View Registration Form](PASTE_YOUR_LIVE_WEBSITE_URL_HERE)
+[View Registration Form](https://github.com/adityakumar-gupta/registration-form-html-css)
 
 ## About
 This project was created to practice HTML form elements,
