@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-color: #f2f2f2;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px
+
+
+}
+
+.container{
+    
+   background-color: aliceblue;
+   max-height: 600px;
+   max-width: 500px;
+   padding: 20px;
+   border-top: 5px solid blue;
+   box-shadow: 10px 5px 10px 0;
+
+}
+.container h2{
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.box{
+  
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+.container .name-box{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    margin: 10px 5px;
+    
+    
+   
+}
+  
+
+
+.name-box input{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    margin-left:10px ;
+    text-indent: 30px;
+}
+
+.name-box i:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+ .name-box i{
+    position:absolute;
+    margin-left: 10px;
+
+    font-size: 18px;
+    padding: 10px;
+    color: blue;
+    border-right: 1px solid black ;
+    
+    
+    
+}
+.condition-box{
+    padding: 10px;
+
+}
+
+
+
+.box input{
+    
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    text-indent: 30px;
+
+}
+.box i{
+    width: 15px;
+    position: absolute;
+    font-size: 18px;
+    padding: 10px;
+    color: blue;
+    border-right: 1px solid black ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.box i:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+   
+}
+.radio-box{
+    padding: 5px 5px 10px 10px;
+    
+}
+.radio-box span{
+    margin-left: 10px;
+}
+
+
+.option-box{
+    margin-left: 10px;
+}
+.option-box select{
+    height: 100%;
+    width: 93%;
+    padding: 10px;
+    
+}
+.-rasitebtnr{
+    padding: 10px;
+    margin-left: 10px;
+}
+.-rasitebtnr input{
+    width: 93%;
+    height: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.-rasitebtnr input:hover{
+    cursor: pointer;
+    background-color: rgb(70, 70, 249);
+    transform:scale(1.02)
+    
+    
+    
+}
+@media  (max-width :580px) {
+    .name-box{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .name-box input{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    span{
+        position: static;
+    }
+}
+
+
+    
+
